@@ -1,0 +1,13 @@
+.texto {
+  font: 10px sans-serif;
+}
+.titulo {
+  font: 20px sans-serif;
+}
+.axis line,
+.arrow {
+  stroke-width: 1px;
+}
+body {
+    background-color: #d0e4fe;
+}
