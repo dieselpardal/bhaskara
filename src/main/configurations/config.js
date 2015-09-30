@@ -13,8 +13,8 @@ var finalC = 10;
 var escala=20;
 var raio = 1;
 
-var numero_positivo = 1;
-var numero_negativo =-1;
+var numeroPositivo = 1;
+var numeroNegativo =-1;
 
 var largura  = 800;
 var altura = 600;
@@ -22,3 +22,6 @@ var altura = 600;
 var centroX = (largura / 2);
 var centroY = (altura / 2);
 var corTela = "black";
+
+var corDeTela = "yellow";
+var corDeCirculo = "blue";

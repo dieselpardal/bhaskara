@@ -73,8 +73,8 @@ function limpaQuadro(svg,x,y,l,a,color) {
   grid(svg);
 };
 
-function delta($a, $b, $c) {
-  sq = ( $b * $b  ) - 4 * $a * $c;
+function delta(a, b, c) {
+  sq = ( b * b  ) - 4 * a * c;
   if (sq>0) {
     return Math.sqrt( sq);
   } else {return 0;};
@@ -86,8 +86,8 @@ function bhaskara(sinal, a, b, c) {
            else  return (-b - d) / (2 * a );
 };
 
-function operacaoPositivo($numero) {
-        if ($numero >0 ) return "+" + $numero;
-        else return $numero;
+function operacaoPositivo(numero) {
+        if (numero >0 ) return "+" + numero;
+        else return numero;
 
 };

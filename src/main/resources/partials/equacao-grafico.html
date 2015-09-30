@@ -1,0 +1,21 @@
+<div ng-controller="BhaskaraGraficoController">
+<p>
+Gráfico de Equação de 2 grau
+</p>
+<div>
+INICIO
+<label> a</label> <input type="number" ng-model="inicioA">
+<label> b</label> <input type="number" ng-model="inicioB">
+<label> c</label> <input type="number" ng-model="inicioC">
+</div>
+<div>
+FINAL
+<label> a</label> <input type="number" ng-model="finalA">
+<label> b</label> <input type="number" ng-model="finalB">
+<label> c</label> <input type="number" ng-model="finalC">
+</div>
+<button ng-click="gerarGrafico()">Gerar grafico</button>
+  <div id="main" style="width:{{largura}}px; height:{{altura}}px; ">
+    <div id="telaDeBhaskara"></div>
+  </div>
+</div>
