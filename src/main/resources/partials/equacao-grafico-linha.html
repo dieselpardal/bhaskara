@@ -1,0 +1,17 @@
+<div ng-controller="BhaskaraGraficoLinhaController">
+<p>
+Gráfico de Equação de 2 grau - Linha
+</p>
+<div>
+VALORES
+<label> a</label> <input type="number" step="0.01" ng-model="valorA" ng-click="gerarGrafico()">
+<label> b</label> <input type="number" step="1.0" ng-model="valorB" ng-click="gerarGrafico()">
+<label> c</label> <input type="number" step="5.0" ng-model="valorC" ng-click="gerarGrafico()">
+</div>
+  <p>Equação: {{ valorA | sinalA }}{{ valorB | sinalB }}{{ valorC | sinalC }}</p>
+  <p>
+<button ng-click="gerarGrafico()">Gerar grafico</button>
+  <div id="quadroLinha" style="width:{{largura}}px; height:{{altura}}px; ">
+    <div id="telaLinha"></div>
+  </div>
+</div>

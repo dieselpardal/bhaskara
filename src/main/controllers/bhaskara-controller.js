@@ -1,26 +1,11 @@
-myApp.controller('BhaskaraController', function BhaskaraController($scope) {
+myApp.controller('BhaskaraController', function BhaskaraController($scope,constantesFactory,bhaskaraService) {
 
-    var anular = 0;
+    $scope.a =  constantesFactory.A;
+    $scope.b =  constantesFactory.B;
+    $scope.c =  constantesFactory.C;
 
-    $scope.a =  padraoA;
-    $scope.b =  padraoB;
-    $scope.c =  padraoC;
-
-    $scope.resultar = function () {
-      $scope.x1 = operacaoPositivo(bhaskara(numeroPositivo,$scope.a, $scope.b, $scope.c));
-      $scope.x2 = operacaoPositivo(bhaskara(numeroNegativo,$scope.a, $scope.b, $scope.c));
-    }
-
-    $scope.mostraOperacaoNumero = function(numero) {
-      if(numero == anular) {
-        return "" ;
-      } else {
-        if (numero > anular) {
-          return "+" + numero;
-        } else {
-          return numero;
-        }
-      }
+    $scope.resultarBhaskara = function () {
+      $scope.x1 = bhaskaraService.calcularBhaskara(constantesFactory.numeroPositivo, $scope.a, $scope.b, $scope.c);
+      $scope.x2 = bhaskaraService.calcularBhaskara(constantesFactory.numeroNegativo, $scope.a, $scope.b, $scope.c);
     };
-}
-);
+});

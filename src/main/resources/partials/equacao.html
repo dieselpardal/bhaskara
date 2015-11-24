@@ -5,12 +5,13 @@
       <label>a</label> <input type="number" ng-model="a">
       <label>b</label> <input type="number" ng-model="b">
       <label>c</label> <input type="number" ng-model="c">
-      <button ng-click="resultar()">calcular</button>
+      <button ng-click="resultarBhaskara()">calcular</button>
       <br>
       <p>Demonstrar:<br>
-        {{ a }}x^2{{ mostraOperacaoNumero(b) }}x{{ mostraOperacaoNumero(c) }}=0</p>
-
-        <p >Resultar:<br>
-            x1= {{ x1 }}<br>
-            x2= {{ x2 }}</p>
+        {{ a | sinalA }}{{ b | sinalB }}{{ c | sinalC }}=0</p>
+        <p>
+          Resultar:<br>
+            x1= {{ x1 | sinalPositivoComZero }}<br>
+            x2= {{ x2 | sinalPositivoComZero }}
+        </p>
 </div>

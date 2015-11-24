@@ -1,5 +1,5 @@
-myApp.directive('equacaoTeste', function() {
+myApp.directive("equacaoTeste", function() {
       return {
-        templateUrl: '../test/equacao-teste.html'
-      };
+        templateUrl: "../test/equacao-teste.html"
+            };
 });

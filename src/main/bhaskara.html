@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html  ng-app="myApp">
+  <head>
+    <meta charset="UTF-8">
+    <title>Equação de 2 grau</title>
+    <link href="resources/css/main.css" rel="stylesheet">
+    <script src="../../node_modules/angular/angular.min.js"></script>
+    <script src="../../node_modules/angular/mask.min.js"></script>
+    <script src="../../node_modules/angular-mocks/angular-mocks.js"></script>
+    <script src="../../node_modules/angular/ng-table.js"></script>
+    <script src= "../../node_modules/angular/d3.min.js"></script>
+    <script src="controllers/bhaskara-modular.js"></script>
+    <script src="factories/constantes-factory.js"></script>
+    <script src="services/calculo-bhaskara.js"></script>
+    <script src="services/bhaskara-service.js"></script>
+    <script src="services/graficos-service.js"></script>
+    <script src="controllers/bhaskara-controller.js"></script>
+    <script src="controllers/bhaskara-grafico-total-controller.js"></script>
+    <script src="controllers/bhaskara-grafico-linha-controller.js"></script>
+    <script src="directives/equacao-directive.js"></script>
+    <script src="directives/equacao-grafico-linha-directive.js"></script>
+    <script src="directives/equacao-grafico-total-directive.js"></script>
+    <script src="directives/equacao-teste-directive.js"></script>
+    <script src="filters/sinalA-filtro.js"></script>
+    <script src="filters/sinalB-filtro.js"></script>
+    <script src="filters/sinalC-filtro.js"></script>
+    <script src="filters/sinal-positivo-com-zero-filtro.js"></script>
+  </head>
+<body >
+<div class="titulo">
+  Equação de 2 grau
+</div>
+<div class="container">
+  <div equacao></div><hr>
+  <div equacao-grafico-linha></div><hr>
+  <div equacao-grafico-total></div><hr>
+  <div equacao-teste></div><hr>
+</div>
+</body>
+</html>
