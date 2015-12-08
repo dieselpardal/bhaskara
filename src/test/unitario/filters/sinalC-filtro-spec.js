@@ -14,4 +14,4 @@ describe('Caso o sinal C', function() {
          inject(function(sinalCFilter) {
            expect(sinalCFilter(0)).toBe('');
          }));
-       });
+});

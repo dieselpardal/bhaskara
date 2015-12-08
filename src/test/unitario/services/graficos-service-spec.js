@@ -70,10 +70,4 @@ describe('Os servicos dos graficos de Bhaskara.', function () {
       expect(grafico.limpaQuadro).toHaveBeenCalledWith(svg,0,0,10,5,'red');
     });
 
-
-
-
-
-
-
 });

@@ -1,5 +1,4 @@
 describe('Filtro de conversao de sinal de positivo dos numeros. ', function() {
-
   beforeEach(module('myApp'));
    it('Verificar o valor 1 seja +1.',
       inject(function(sinalPositivoComZeroFilter) {

@@ -1,6 +1,4 @@
-
-
- describe('Caso o sinal A', function() {
+describe('Caso o sinal A', function() {
      beforeEach(module('myApp'));
    it('Verificar a operação de número um seja sinal de positivo e não apareceu numero um para incluir a quadrática de valor.',
       inject(function(sinalAFilter) {

@@ -4,6 +4,10 @@ myApp.service('bhaskaraService', function (constantesFactory) {
     return calcularBhaskaraCompleto(sinal, a, b, c);
   };
 
+  this.calcularDelta = function (a, b, c) {
+    return calcularDelta( a, b, c);
+  };
+
  this.operacaoPositivo = function (numero) {
       if (numero >0 ){
         return '+' + numero;

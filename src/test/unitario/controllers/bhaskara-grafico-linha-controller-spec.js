@@ -35,4 +35,5 @@ describe('Controlador de Grafico de linha ', function () {
   it('Verificar a gerar o grafico seja definido.',function() {
       expect($scope.gerarGrafico).toBeDefined();
     });
+
 });

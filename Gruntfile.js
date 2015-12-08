@@ -20,15 +20,10 @@ module.exports = function(grunt) {
         src: [
               'node_modules/angular/angular.js',
               'node_modules/angular-mocks/angular-mocks.js',
-              'node_modules/angular-route/angular-route.js',
               'node_modules/angularjs-datepicker/dist/angular-datepicker.min.js',
               'node_modules/angular/d3.min.js',
               'src/main/controllers/bhaskara-modular.js',
-              'src/main/factories/*.js',
-              'src/main/services/*.js',
-              'src/main/controllers/*.js',
-              'src/main/directives/*.js',
-              'src/main/filters/*.js'],
+              'src/main/**/*.js'],
       options: {
        specs: 'src/test/unitario/**/*-spec.js'
         }
@@ -36,7 +31,7 @@ module.exports = function(grunt) {
     'http-server': {
       'root': {
         root: '',
-        port: 8282,
+        port: 8200,
         host: '0.0.0.0',
         https: false,
         openBrowser : false

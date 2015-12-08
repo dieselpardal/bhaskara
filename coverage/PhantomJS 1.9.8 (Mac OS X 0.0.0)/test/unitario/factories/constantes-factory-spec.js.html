@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for test/unitario/factories/constantes-factory-spec.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">all files</a> / <a href="index.html">test/unitario/factories/</a> constantes-factory-spec.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>52/52</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>26/26</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>52/52</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80</td><td class="line-coverage quiet"><span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">24×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">describe('Os constantes de Bhaskara.', function () {
+  beforeEach(module('myApp'));
+   beforeEach(inject(function($injector) {
+     constantesFactory = $injector.get('constantesFactory');
+   }));
+&nbsp;
+    it('A padrão de A deve ser 1.', function() {
+      expect(constantesFactory.A).toBe(1);
+      });
+    it('A padrão de B deve ser 5.', function() {
+      expect(constantesFactory.B).toBe(5);
+      });
+    it('A padrão de C deve ser -6.', function() {
+      expect(constantesFactory.C).toBe(-6);
+      });
+    it('A padrão de inicioA deve ser -5.', function() {
+      expect(constantesFactory.inicioA).toBe(-5);
+      });
+    it('A padrão de inicioB deve ser -20.', function() {
+      expect(constantesFactory.inicioB).toBe(-20);
+      });
+    it('A padrão de inicioC deve ser -10.', function() {
+      expect(constantesFactory.inicioC).toBe(-10);
+      });
+    it('A padrão de finalA deve ser 5.', function() {
+      expect(constantesFactory.finalA).toBe(5);
+      });
+    it('A padrão de finalB deve ser 20.', function() {
+      expect(constantesFactory.finalB).toBe(20);
+      });
+    it('A padrão de finalC deve ser 10.', function() {
+      expect(constantesFactory.finalC).toBe(10);
+      });
+    it('A padrão de escala deve ser 20.', function() {
+      expect(constantesFactory.escala).toBe(20);
+      });
+    it('A padrão de raio deve ser 1.', function() {
+      expect(constantesFactory.raio).toBe(1);
+      });
+    it('A padrão de numeroPositivo deve ser 1.', function() {
+      expect(constantesFactory.numeroPositivo).toBe(1);
+      });
+    it('A padrão de numeroNegativo deve ser -1.', function() {
+      expect(constantesFactory.numeroNegativo ).toBe(-1);
+      });
+    it('A padrão de sinalInexistente deve ser -1.', function() {
+      expect(constantesFactory.sinalInexistente ).toBe(-1);
+      });
+    it('A padrão de anular deve ser 0.', function() {
+      expect(constantesFactory.anular).toBe(0);
+      });
+    it('A padrão de largura deve ser 800.', function() {
+      expect(constantesFactory.largura).toBe(800);
+      });
+    it('A padrão de altura deve ser 600.', function() {
+      expect(constantesFactory.altura).toBe(600);
+      });
+    it('A padrão de centroX deve ser 400.', function() {
+      expect(constantesFactory.centroX).toBe(400);
+      });
+    it('A padrão de centroY deve ser 300.', function() {
+      expect(constantesFactory.centroY).toBe(300);
+      });
+    it("A padrão de corTela deve ser 'black'.", function() {
+      expect(constantesFactory.corTela).toBe('black');
+      });
+    it("A padrão de corDeTela deve ser 'yellow'.", function() {
+      expect(constantesFactory.corDeTela).toBe('yellow');
+      });
+    it("A padrão de corDeCirculo deve ser 'blue'.", function() {
+      expect(constantesFactory.corDeCirculo).toBe('blue');
+      });
+    it("A padrão de corVermelho deve ser 'red'.", function() {
+      expect(constantesFactory.corVermelho).toBe('red');
+      });
+    it("A padrão de corOuro deve ser 'gold'.", function() {
+      expect(constantesFactory.corOuro).toBe('gold');
+      });
+});
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Tue Dec 08 2015 10:57:14 GMT-0200 (BRST)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

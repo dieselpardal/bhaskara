@@ -25,4 +25,8 @@ describe('Os servicos de Bhaskara.', function () {
     it('O numero de null nao deve validar.', function() {
       expect(bhaskaraService.isInvalido(null)).toBe(true);
     });
+
+    it('A funcao de DELTA  deve retornar sinal inexistente.', function() {
+      expect(bhaskaraService.calcularDelta(3,0,1)).toBe(-1);
+    });
 });
