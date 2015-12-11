@@ -2,39 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be3909dc-c105-4630-94af-cecc76795a7d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package-karma.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/configurations/config.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/configurations/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/controllers/bhaskara-controller.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/controllers/bhaskara-grafico-controller.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/controllers/bhaskara-modular.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/controllers/fitros.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/controllers/includes/funcoes.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/controllers/includes/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/controllers/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/directives/equacao-directive.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/directives/equacao-grafico-directive.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/directives/equacao-grafico-linha-directive.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/directives/equacao-grafico-total-directive.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/directives/equacao-teste-directive.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/directives/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/sort-arrow-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/sorter.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.txt" afterPath="$PROJECT_DIR$/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/unitario/controllers/bhaskara-grafico-linha-controller-spec.js" afterPath="$PROJECT_DIR$/src/test/unitario/controllers/bhaskara-grafico-linha-controller-spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/equacao-teste.html" afterPath="$PROJECT_DIR$/src/test/equacao-teste.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/unitario/services/graficos-service-spec.js" afterPath="$PROJECT_DIR$/src/test/unitario/services/graficos-service-spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/grunt-karma/package.json" afterPath="$PROJECT_DIR$/node_modules/grunt-karma/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/unitario/filters/sinal-positivo-com-zero-filtro-spec.js" afterPath="$PROJECT_DIR$/src/test/unitario/filters/sinal-positivo-com-zero-filtro-spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/unitario/filters/sinalA-filtro-spec.js" afterPath="$PROJECT_DIR$/src/test/unitario/filters/sinalA-filtro-spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/unitario/filters/sinalC-filtro-spec.js" afterPath="$PROJECT_DIR$/src/test/unitario/filters/sinalC-filtro-spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/controllers/bhaskara-controller-spec.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/controllers/bhaskara-controller-spec.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/controllers/bhaskara-controller.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/controllers/bhaskara-controller.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/controllers/bhaskara-grafico-linha-controller-spec.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/controllers/bhaskara-grafico-linha-controller-spec.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/controllers/bhaskara-grafico-linha-controller.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/controllers/bhaskara-grafico-linha-controller.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/controllers/bhaskara-grafico-total-controller-spec.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/controllers/bhaskara-grafico-total-controller-spec.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/controllers/bhaskara-grafico-total-controller.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/controllers/bhaskara-grafico-total-controller.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/controllers/bhaskara-modular-spec.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/controllers/bhaskara-modular-spec.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/controllers/bhaskara-modular.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/controllers/bhaskara-modular.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/services/bhaskara-service-spec.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/services/bhaskara-service-spec.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/services/bhaskara-service.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/services/bhaskara-service.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/services/calculo-bhaskara.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/services/calculo-bhaskara.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/services/calculo-bhaskara.js" afterPath="$PROJECT_DIR$/src/main/services/calculo-bhaskara.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/factories/constantes-factory-spec.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/factories/constantes-factory-spec.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/factories/constantes-factory.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/factories/constantes-factory.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/directives/equacao-directive-spec.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/directives/equacao-directive-spec.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/directives/equacao-directive.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/directives/equacao-directive.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/directives/equacao-grafico-linha-directive-spec.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/directives/equacao-grafico-linha-directive-spec.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/directives/equacao-grafico-linha-directive.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/directives/equacao-grafico-linha-directive.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/directives/equacao-grafico-total-directive-spec.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/directives/equacao-grafico-total-directive-spec.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/directives/equacao-grafico-total-directive.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/directives/equacao-grafico-total-directive.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/directives/equacao-teste-directive-spec.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/directives/equacao-teste-directive-spec.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/directives/equacao-teste-directive.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/directives/equacao-teste-directive.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/services/graficos-service-spec.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/services/graficos-service-spec.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/services/graficos-service.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/services/graficos-service.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/index.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/controllers/index.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/controllers/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/directives/index.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/directives/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/factories/index.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/factories/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/filters/index.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/filters/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/services/index.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/services/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/controllers/index.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/controllers/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/directives/index.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/directives/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/factories/index.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/factories/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/filters/index.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/filters/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/services/index.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/services/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/filters/sinal-positivo-com-zero-filtro-spec.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/filters/sinal-positivo-com-zero-filtro-spec.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/filters/sinal-positivo-com-zero-filtro.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/filters/sinal-positivo-com-zero-filtro.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/filters/sinalA-filtro-spec.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/filters/sinalA-filtro-spec.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/filters/sinalA-filtro.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/filters/sinalA-filtro.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/filters/sinalB-filtro-spec.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/filters/sinalB-filtro-spec.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/filters/sinalB-filtro.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/filters/sinalB-filtro.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/filters/sinalC-filtro-spec.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/test/unitario/filters/sinalC-filtro-spec.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/filters/sinalC-filtro.js.html" afterPath="$PROJECT_DIR$/coverage/PhantomJS 1.9.8 (Mac OS X 0.0.0)/main/filters/sinalC-filtro.js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Bhaskara.iws" />
@@ -56,21 +66,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bhaskara-service-spec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/unitario/services/bhaskara-service-spec.js">
+      <file leaf-file-name="bhaskara.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/bhaskara.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="-2.764706">
+              <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="karma.conf.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/karma.conf.js">
+      <file leaf-file-name="bhaskara-service.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/services/bhaskara-service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5141844">
-              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sinalA-filtro.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/filters/sinalA-filtro.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sinalB-filtro.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/filters/sinalB-filtro.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bhaskara-controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/controllers/bhaskara-controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calculo-bhaskara.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/services/calculo-bhaskara.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -123,6 +183,12 @@
         <option value="$PROJECT_DIR$/src/test/unitario/filters/sinal-positivo-com-zero-filtro-spec.js" />
         <option value="$PROJECT_DIR$/src/test/unitario/services/bhaskara-service-spec.js" />
         <option value="$PROJECT_DIR$/karma.conf.js" />
+        <option value="$PROJECT_DIR$/src/main/MyMath.js" />
+        <option value="$PROJECT_DIR$/src/main/app.js" />
+        <option value="$PROJECT_DIR$/src/main/filters/sinalA-filtro.js" />
+        <option value="$PROJECT_DIR$/src/main/services/calculo-bhaskara.js" />
+        <option value="$PROJECT_DIR$/src/main/bhaskara.html" />
+        <option value="$PROJECT_DIR$/src/main/services/bhaskara-service.js" />
       </list>
     </option>
   </component>
@@ -137,9 +203,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="-361" />
+    <option name="y" value="-1057" />
     <option name="width" value="1920" />
-    <option name="height" value="990" />
+    <option name="height" value="988" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -165,6 +232,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -307,77 +375,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bhaskara" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bhaskara" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bhaskara" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bhaskara" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="filters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bhaskara" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bhaskara" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directives" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -405,7 +403,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -423,6 +420,8 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/services" />
+      <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -613,7 +612,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="990" extended-state="0" />
+    <frame x="-361" y="-1057" width="1920" height="988" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -621,6 +620,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19724771" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -629,10 +629,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26464325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24387646" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32943678" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -656,29 +655,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/unitario/services/bhaskara-service-spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/karma.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/bhaskara.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -800,13 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -856,14 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/bhaskara.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.5">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/equacao-teste.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.034802783">
@@ -883,13 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/controllers/bhaskara-grafico-linha-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -932,14 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.625">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/controllers/bhaskara-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -954,7 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,7 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -980,24 +924,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/services/bhaskara-service.js">
+    <entry file="file://$PROJECT_DIR$/karma.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/filters/sinalA-filtro.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/filters/sinalB-filtro.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.47645125">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1009,10 +939,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/karma.conf.js">
+    <entry file="file://$PROJECT_DIR$/src/main/controllers/bhaskara-grafico-linha-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5141844">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/filters/sinalB-filtro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/controllers/bhaskara-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/filters/sinalA-filtro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/services/calculo-bhaskara.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/bhaskara.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.764706">
+          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/services/bhaskara-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
