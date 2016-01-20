@@ -5,7 +5,7 @@ Programador: Ivan Diesel
 Data: 15/09/2015
 
 
-A seguir estao descritos os passos que devem ser tomados para se ter o ambiente de projeto de Bhaskara 1.0 na ambiente OSX.
+A seguir estao descritos os passos que devem ser tomados para se ter o ambiente de projeto de Bhaskara 1.0 na ambiente OSX com visualização de biblioteca D3. 
 Os pacotes mencionados do documento podem ser encontrados na mesma pasta deste arquivo.
 
 1) Instalação de Editor de texto versão Atom.
