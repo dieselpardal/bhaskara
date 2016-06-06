@@ -25,8 +25,9 @@ Os pacotes mencionados do documento podem ser encontrados na mesma pasta deste a
     Digite "grunt jshint" no terminal.
 
 6) Navegar no site de Servidor de Local:
-    No navegador: http://0.0.0.0:8282
-    No terminal: grunt http-server
+    6.1) No terminal: grunt http-server
+    6.2) No navegador: http://0.0.0.0:8282
+
 
 7) Descrição de Bhaskara.
     A fórmula de Bhaskara é principalmente usada para resolver equações quadráticas de fórmula geral ax2+bx+c=0, com coeficientes reais, com a≠0 e é dada por:
