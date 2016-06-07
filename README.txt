@@ -75,6 +75,7 @@ No terminal, digitar em seguinte:
   1.1) de karma: npm install karma --save-dev
   1.2) de Jasmine: npm install karma-jasmine --save-dev
   1.3) de Coverage: npm install karma karma-coverage --save-dev
+  1.4) de Spec: npm install karma-spec-reporter --save-dev
 
 2) Configuracao
   O arquivo karma.conf.js esta automaticamenteo de inicializacao de processo de karma.
