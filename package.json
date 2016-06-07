@@ -21,6 +21,7 @@
     "angular-ui-mask": "^1.4.4",
     "angularjs-datepicker": "^0.2.10",
     "bootstrap": "^3.3.5",
+    "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
     "jshint": "2.8.0",
     "karma": "^0.13.3",
