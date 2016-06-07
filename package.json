@@ -5,9 +5,10 @@
     "type": "git",
     "url": "https://github.com/dieselpardal/bhaskara.git"
   },
-  "description": "",
+  "description": "Baskara para grafico e calcular.",
   "main": "''",
   "scripts": {
+    "start": "./node_modules/.bin/grunt http-server",
     "test": "./node_modules/karma/bin/karma start karma.conf.js --single-run",
     "autotest": "./node_modules/karma/bin/karma start karma.conf.js"
   },
@@ -20,6 +21,7 @@
     "angular-ui-mask": "^1.4.4",
     "angularjs-datepicker": "^0.2.10",
     "bootstrap": "^3.3.5",
+    "grunt-cli": "^1.2.0",
     "jshint": "2.8.0",
     "karma": "^0.13.3",
     "karma-chai": "^0.1.0",
