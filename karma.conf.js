@@ -25,7 +25,7 @@ module.exports = function(config) {
       type : 'html',
       dir : 'coverage/'
     },
-    port: 9876,
+    port: ['PORT'],
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
