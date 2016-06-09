@@ -31,7 +31,7 @@ module.exports = function(grunt) {
     'http-server': {
       'root': {
         root: '',
-        port: 8200,
+        port: process.env.PORT || 8200,
         host: '0.0.0.0',
         https: false,
         openBrowser : false
