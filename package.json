@@ -23,9 +23,7 @@
     "bootstrap": "^3.3.5",
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
-    "grunt-contrib-jasmine": "^1.0.3",
-    "grunt-contrib-jshint": "^1.0.0",
-    "grunt-http-server": "^2.0.0",
+    "grunt-http-server": "^2.1.0",
     "jshint": "2.8.0",
     "karma": "^0.13.22",
     "karma-chai": "^0.1.0",
@@ -37,6 +35,8 @@
     "phantomjs": "^1.9.17"
   },
   "devDependencies": {
+    "grunt-contrib-jasmine": "^1.2.0",
+    "grunt-contrib-jshint": "^1.1.0",
     "karma": "^0.13.15",
     "karma-coverage": "^0.5.3",
     "karma-phantomjs-launcher": "^0.2.1"
